@@ -12,31 +12,58 @@ html{
     font-family: sans-serif;
     color: #7DBB02;
 }
+/* @HEADER*/
 .menu{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 1rem;
 }
 a {
     text-decoration: none;
     text-transform: capitalize;
     font-size: 1.125rem;
     color: #7DBB02;
+    padding-inline: 1rem;
 }
 .banner{
     display: flex;
     justify-content: space-between;
 }
+
+/* @MAIN*/
+.galeria{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.cuerpo{
+    color: black;
+    padding: 1rem;
+    
+}
+
+/* @FOOTER*/
 #footer{
     height: 150px;
     background-color: #7DBB02;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    justify-content: center;
+
 }
 .redesSociales{
-    display: flex;
-    justify-content: space-between;
     padding: 1rem;
+    display: flex;
+    justify-content: center;
+   
+}
+.copy{
+    
+    display: flex;
+    color: white;
+    justify-content: center;
+    
 }

@@ -52,16 +52,67 @@
     <main>
         <section id="main">
             <h2 class="título">PRODUCTOS, que puedes encontar en nuestra farmacia</h2>
-        <article>
-            <picture>
-            <source srcset="
-            ./assets/img/main/parafarmaciaProducto.jpg 1x,
-            ./assets/img/main/parafarmaciaProducto2x.jpg 2x"
-            />
-            <img src="" alt="parafarmacia_producto">    
-            </picture>    
+            <section class="galeria">
+                <article class="galeria__parafarmacia">
+                    <picture>
+                        <source srcset="
+                        ./assets/img/main/parafarmaciaProducto.jpg 1x,
+                        ./assets/img/main/parafarmaciaProducto2x.jpg 2x"
+                        />
+                        <img src="" alt="parafarmacia_producto">    
+                    </picture>   
+                    
+                    <a class="galeria__parafarmacia__titulo cuerpo" href="#">Producto 01</a>
 
-        </article>    
+                    <p class="galeria__parafarmacia__texto cuerpo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc amet dignissim turpis.</p>
+                </article>  
+
+                <article class="galeria__vitalidad">
+                    <picture>
+                        <source srcset="
+                        ./assets/img/main/tonicoVitalidad.jpg 1x,
+                        ./assets/img/main/tonicoVitalidad2x.jpg 2x"
+                        />
+                        <img src="" alt="tonico_vitalidad">    
+                    </picture>
+
+                    <a class="galeria__vitalidad__titulo cuerpo" href="#">Producto 01</a>
+                    
+                    <p class="galeria__vitalidad__texto cuerpo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc amet dignissim turpis.</p>
+                </article>  
+                
+                <article class="galeria__energizante">
+                    <picture>
+                        <source srcset="
+                        ./assets/img/main/tonicoEnergizantePaco.jpg 1x,
+                        ./assets/img/main/tonicoEnergizantePaco2x.jpg 2x"
+                        />
+                        <img src="" alt="tonico_energizante">    
+                    </picture> 
+
+                    <a class="galeria__energizante__titulo cuerpo" href="#">Producto 01</a>
+                    
+                    <p class="galeria__energizante__texto cuerpo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc amet dignissim turpis.</p>
+                </article>    
+
+                <article class="galeria__cosmetologia">
+                    <picture>
+                        <source srcset="
+                        ./assets/img/main/cosmetologiaPaco.jpg 1x,
+                        ./assets/img/main/cosmetologiaPaco2x.jpg 2x"
+                        />
+                        <img src="" alt="cosmetologia_paco"> 
+                        
+                        <a class="galeria__cosmetologia__titulo cuerpo" href="#">Producto 01</a>
+                    
+                        <p class="galeria__cosmetologia__texto cuerpo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc amet dignissim turpis.</p>
+                        </picture>  
+                </article>  
+            </section>  
+            <section class="mapa">
+                <h2>¿Dónde nos puedes encontrar?</h2>
+                <img class="mapa__ubicacion" src="./assets/img/main/mapa_farmaciaPaco.jpg">
+            </section>
         </section>
 
     </main>
@@ -69,14 +120,16 @@
     <footer>
         <section id="footer">
             <section class="redesSociales">
-                <img class="redesSociales__instagram" src="./assets/img/footer/instagram_farmacia.svg">
-                <img class="redesSociales__twitter" src="./assets/img/footer/twitter_farmacia.svg">
-                <img class="redesSociales__facebook" src="./assets/img/footer/facebook_farmacia.svg">
+                <a class="redesSociales__instagram" href="https://www.instagram.com" target="_blank"><img  src="./assets/img/footer/instagram_farmacia.svg"></a>
+                
+                <a class="redesSociales__twitter" href="https://www.twitter.com" target="_blank"><img src="./assets/img/footer/twitter_farmacia.svg"></a>
+
+                <a class="redesSociales__facebook" href="https://facebook.com" target="_blank"><img  src="./assets/img/footer/facebook_farmacia.svg"></a>
             </section>
+            <h6 class="copy">copyright 2021 - Farmacia PACO</h6>
 <!--COPYRIGHT, centrado debajo de redes-->
-            <section class="copy">
-                <h6 class="copy__rigth">copyright 2021 - Farmacia PACO</h6>
-            </section>    
+
+                
         </section>
     </footer>
 </body>
